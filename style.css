@@ -1,0 +1,139 @@
+*{
+  margin: 0;
+  padding: 0;  
+}
+
+#full-page{
+    border: 1px solid black;
+    width: 100%;
+    height: 800px;
+}
+
+#container{
+border: 1px solid  rgb(0,102,101);
+width: 100%;
+height: 60px;
+background-color: rgb(0,102,101);
+}
+
+#header{
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+#header i{
+    /* border: 1px solid black; */
+    margin-top: 7px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+#header h1{
+    color: white;
+}
+
+#header button{
+    /* border: 1px solid black; */
+    font-size: 20px;
+    height: 25px;
+    margin-top: 7px;
+    width: 200%;
+    cursor: pointer;
+}
+
+#studentpart{
+    border: 1px solid  rgb(0,102,101);
+    height: 200px;
+    background-color: rgb(0,102,101);
+}
+
+#studentpart > div:nth-child(1){
+    /* border: 1px solid black; */
+    width: 40%;
+    margin: auto;
+    margin-top: 50px;
+    height: 100px;
+    text-align: center;
+}
+
+#studentpart h1{
+    padding-top: 7px;
+    color: white;
+}
+
+#studentpart > div:nth-child(1) > div:nth-child(2){
+    padding-top: 7px;
+}
+
+#studentpart > div:nth-child(1) > div:nth-child(2) input{
+    height: 30px;
+    width: 40%;
+}
+
+#studentpart button{
+    cursor: pointer;
+    height: 32px;
+    width: 20%;
+}
+
+#Container2{
+    border: 1px solid  rgb(0,102,101);
+    width: 100%;
+    height: 200px;
+    background-color: rgb(0,102,101);
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+#Attendance{
+    border: 1px solid white;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#Attendance h3{
+    color:  yellowgreen;
+}
+
+#StudentInfo{
+    border: 1px solid white;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: yellowgreen
+}
+
+#Container3{
+    border: 1px solid  rgb(0,102,101);
+    width: 100%;
+    height: 200px;
+    background-color: rgb(0,102,101);
+}
+
+
+#AttendanceSheet{
+    border: 1px solid white;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+#AttendanceSheet h3{
+    color:  yellowgreen;
+}
