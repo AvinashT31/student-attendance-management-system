@@ -105,9 +105,8 @@ h2{
     justify-content: space-around;
 }
 
-
 #Attendance h3{
-    color:  yellowgreen;
+    color:  white;
 }
 
 #StudentInfo{
@@ -115,7 +114,7 @@ h2{
     width: 80%;
     margin: auto;
     text-align: center;
-    color: yellowgreen
+    color: white;
 }
 
 #Container3{
@@ -125,8 +124,7 @@ h2{
     background-color: rgb(0,102,101);
 }
 
-
-#AttendanceSheet{
+#Attendance{
     border: 1px solid  white;
     width: 80%;
     margin: auto;
@@ -137,5 +135,5 @@ h2{
 }
 
 #AttendanceSheet h3{
-    color:  yellowgreen;
+    color:  white
 }

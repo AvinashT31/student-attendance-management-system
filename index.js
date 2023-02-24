@@ -11,6 +11,7 @@ function AddStudent(){
 
      localStorage.setItem("StudentNameLocal", JSON.stringify(StudentNameLocal));
      MarkAttendance();
+AttendanceSheet();
 }
 
 function MarkAttendance(){
@@ -54,6 +55,5 @@ function AttendanceSheet(){
     console.log(Student, "Student");
     StudentData.innerHTML = Student;
 }
-MarkAttendance()
 AttendanceSheet()
 
